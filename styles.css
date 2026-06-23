@@ -167,6 +167,13 @@ h3 {
   padding: clamp(56px, 8vw, 112px) clamp(18px, 5vw, 72px);
 }
 
+.hero-mark {
+  width: clamp(120px, 14vw, 178px);
+  height: auto;
+  display: block;
+  margin: 0 0 22px;
+}
+
 .premium-hero-copy p:not(.eyebrow) {
   max-width: 650px;
   margin-top: 24px;
