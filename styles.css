@@ -171,7 +171,13 @@ h3 {
   width: clamp(230px, 26vw, 360px);
   height: auto;
   display: block;
-  margin: 0 auto 14px;
+  margin: 0 auto 4px;
+}
+
+.hero-mark + .eyebrow {
+  margin-top: 0;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
 .premium-hero-copy p:not(.eyebrow) {
