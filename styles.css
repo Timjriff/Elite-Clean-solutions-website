@@ -168,10 +168,10 @@ h3 {
 }
 
 .hero-mark {
-  width: clamp(190px, 22vw, 300px);
+  width: clamp(230px, 26vw, 360px);
   height: auto;
   display: block;
-  margin: 0 0 14px;
+  margin: 0 auto 14px;
 }
 
 .premium-hero-copy p:not(.eyebrow) {
