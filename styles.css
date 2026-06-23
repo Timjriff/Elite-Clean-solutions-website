@@ -394,3 +394,27 @@ h3 {
   .site-footer { align-items: flex-start; flex-direction: column; }
   .site-footer nav { flex-direction: column; }
 }
+
+.faq-section {
+  max-width: 980px;
+}
+
+.faq-section details {
+  border-top: 1px solid var(--line);
+  padding: 18px 0;
+}
+
+.faq-section details:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.faq-section summary {
+  cursor: pointer;
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.faq-section details p {
+  margin: 12px 0 0;
+  max-width: 760px;
+}

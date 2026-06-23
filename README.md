@@ -1,26 +1,37 @@
-# Elite Clean Solutions Website
+﻿# Elite Clean Solutions Website
 
-Static multi-page website for Elite Clean Solutions.
+SEO-upgraded multi-page website for Elite Clean Solutions.
 
-## Pages
+## Upload to GitHub
 
-- Home
-- Services
-- Home Cleaning
-- Deep Cleaning
-- Move-In / Move-Out Cleaning
-- Airbnb Cleaning
-- Office Cleaning
-- Service Areas
-- Huntington Beach
-- Costa Mesa
-- Long Beach
-- Mission Viejo
-- Irvine
-- Orange County
-- About
-- Contact
+Drag everything inside this folder into GitHub:
 
-## Notes
+- index.html
+- about.html
+- contact.html
+- styles.css
+- robots.txt
+- sitemap.xml
+- vercel.json
+- README.md
+- assets folder
+- services folder
+- areas folder
 
-Phone number and email are placeholders. Update `contact.html` and any quote links once final contact info is ready.
+Do not upload the zip file by itself.
+
+## SEO included
+
+- Local homepage SEO
+- Individual service pages
+- Individual city/service-area pages
+- SEO page titles and descriptions
+- Canonical links
+- Open Graph and Twitter preview tags
+- Cleaning business schema
+- FAQ schema
+- Sitemap and robots file
+
+## Still needed
+
+Add the final phone number, email address, and real domain if different from elitecleansolutions.com.
