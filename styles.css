@@ -2,6 +2,8 @@
   --teal: #08aeb8;
   --teal-dark: #057d87;
   --mint: #62ead7;
+  --aqua-soft: #e9fbfb;
+  --aqua-mid: #c9f5f0;
   --ink: #111722;
   --body: #1d2430;
   --muted: #66717d;
@@ -22,7 +24,7 @@ html {
 body {
   margin: 0;
   color: var(--body);
-  background: var(--white);
+  background: linear-gradient(180deg, #ffffff 0%, #f7fdfd 42%, #ffffff 100%);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.55;
 }
@@ -134,8 +136,8 @@ h3 {
 .button.primary,
 .header-cta {
   color: var(--white);
-  background: var(--ink);
-  box-shadow: 0 12px 28px rgba(17, 23, 34, 0.18);
+  background: linear-gradient(135deg, var(--ink), #0d737b);
+  box-shadow: 0 12px 28px rgba(8, 174, 184, 0.22);
 }
 
 .button.secondary {
@@ -157,7 +159,7 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(360px, 1.08fr);
   min-height: calc(100vh - 78px);
-  background: var(--white);
+  background: linear-gradient(135deg, #ffffff 0%, #f4fdfd 48%, var(--aqua-soft) 100%);
 }
 
 .premium-hero-copy {
@@ -227,7 +229,7 @@ h3 {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   color: var(--ink);
-  background: rgba(255, 255, 255, 0.92);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(233, 251, 251, 0.94));
   box-shadow: var(--shadow);
 }
 
@@ -246,7 +248,7 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  background: var(--soft);
+  background: linear-gradient(90deg, #ffffff, var(--aqua-soft));
 }
 
 .trust-strip div {
@@ -320,7 +322,7 @@ h3 {
 }
 
 .service-showcase {
-  background: var(--soft);
+  background: linear-gradient(180deg, var(--aqua-soft), #ffffff);
 }
 
 .service-list {
@@ -367,7 +369,7 @@ h3 {
 
 .city-section {
   color: var(--white);
-  background: var(--ink);
+  background: linear-gradient(135deg, var(--ink), #064e56);
 }
 
 .city-section h2,
@@ -404,7 +406,7 @@ h3 {
 }
 
 .process-panel {
-  background: var(--white);
+  background: linear-gradient(180deg, #ffffff, var(--aqua-soft));
 }
 
 .process-grid,
@@ -481,7 +483,7 @@ h3 {
   padding: clamp(34px, 6vw, 68px);
   border-radius: 8px;
   color: var(--white);
-  background: linear-gradient(135deg, var(--ink), #183040);
+  background: linear-gradient(135deg, var(--ink), #064e56 72%, #08aeb8);
   box-shadow: var(--shadow);
 }
 
@@ -508,7 +510,7 @@ h3 {
   padding: clamp(78px, 10vw, 132px) clamp(18px, 5vw, 72px) clamp(54px, 7vw, 90px);
   color: var(--white);
   background:
-    linear-gradient(90deg, rgba(17, 23, 34, 0.92), rgba(17, 23, 34, 0.66)),
+    linear-gradient(90deg, rgba(17, 23, 34, 0.92), rgba(6, 78, 86, 0.7)),
     url("/assets/cleaning-hero.png") center / cover;
 }
 
@@ -627,7 +629,7 @@ h3 {
 
 .card.featured {
   color: var(--white);
-  background: linear-gradient(145deg, var(--ink), #173242);
+  background: linear-gradient(145deg, var(--ink), #064e56);
 }
 
 .card.featured h3 {
@@ -652,7 +654,7 @@ h3 {
 
 .areas {
   color: var(--white);
-  background: var(--ink);
+  background: linear-gradient(135deg, var(--ink), #064e56);
 }
 
 .areas h2 {
