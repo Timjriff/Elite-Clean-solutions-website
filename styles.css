@@ -159,7 +159,7 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(360px, 1.08fr);
   min-height: calc(100vh - 78px);
-  background: linear-gradient(135deg, #ffffff 0%, #f4fdfd 48%, var(--aqua-soft) 100%);
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 46%, #e9fbfb 100%);
 }
 
 .premium-hero-copy {
